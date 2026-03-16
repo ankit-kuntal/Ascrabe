@@ -93,6 +93,7 @@ const Landing = () => (
           <div className="animate-slide-in-right">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
+              src="/hero-recycling.jpg"
               alt="Family sorting recyclable items"
               className="w-full rounded-2xl shadow-elevated"
             />
