@@ -174,30 +174,6 @@ export default function Login() {
     </div>
   );
 }
-
-    setLoading(true);
-    setMessage('');
-
-    const res = await fetch('/api/send-otp', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ phone }),
-    });
-
-    const data = await res.json();
-
-    if (res.ok) {
-      setStep('otp');
-      setMessage('OTP sent successfully');
-    } else {
-      setMessage(data.error || 'Failed to send OTP');
-    }
-
-    setLoading(false);
-  };
-
-  // STEP 2 → Verify OTP
-  const verifyOtp = async () => {
     if (!otp) {
       setMessage('Enter OTP');
       return;

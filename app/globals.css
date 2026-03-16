@@ -55,11 +55,11 @@
 
 @layer components {
   .gradient-hero {
-    background: linear-gradient(to right, var(--primary), color-mix(in srgb, var(--primary) 80%, transparent));
+    background: linear-gradient(to right, hsl(var(--primary)), hsla(16, 84%, 49%, 0.8));
   }
 
   .gradient-subtle {
-    background: linear-gradient(to bottom, color-mix(in srgb, var(--secondary) 5%, var(--background)), color-mix(in srgb, var(--primary) 5%, var(--background)));
+    background: linear-gradient(to bottom, hsla(200, 95%, 50%, 0.05), hsla(16, 84%, 49%, 0.05));
   }
 
   .shadow-card {
