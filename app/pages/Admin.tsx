@@ -36,7 +36,7 @@ const Admin = () => (
     <div className="container py-8">
       <div className="mb-8 flex items-center gap-2">
         <div className="flex h-8 w-8 items-center justify-center rounded-lg gradient-hero">
-          <TrendingUp className="h-4 w-4 text-primary-foreground" />
+          <TrendingUp className="h-4 w-4 text-white" />
         </div>
         <div>
           <h1 className="text-2xl font-bold text-foreground">Admin Panel</h1>

@@ -1,6 +1,8 @@
+'use client';
+
+import Link from "next/link";
 import { Package, Truck, IndianRupee, Clock, CheckCircle2, CircleDot } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -26,7 +28,7 @@ const Dashboard = () => (
           <h1 className="text-2xl font-bold text-foreground">Dashboard</h1>
           <p className="text-sm text-muted-foreground">Welcome back! Here&apos;s your scrap selling summary.</p>
         </div>
-        <Link to="/sell">
+        <Link href="/sell">
           <Button className="gap-2"><Package className="h-4 w-4" /> Sell Scrap</Button>
         </Link>
       </div>
