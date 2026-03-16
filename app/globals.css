@@ -47,10 +47,6 @@
     --ring: 16 84% 49%;
   }
 
-  * {
-    @apply border-border;
-  }
-
   body {
     @apply bg-background text-foreground;
   }
