@@ -95,7 +95,7 @@ export default function Signup() {
         <div className="w-full max-w-sm">
           <div className="text-center mb-8">
             <div className="flex h-12 w-12 items-center justify-center rounded-lg gradient-hero mx-auto mb-3">
-              <Recycle className="h-6 w-6 text-primary-foreground" />
+              <Recycle className="h-6 w-6 text-white" />
             </div>
             <h1 className="text-3xl font-bold text-foreground">Create Account</h1>
             <p className="mt-2 text-sm text-muted-foreground">
