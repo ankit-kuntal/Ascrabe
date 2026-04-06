@@ -115,6 +115,14 @@ const ChartTooltipContent = React.forwardRef<
       color,
       nameKey,
       labelKey,
+      ...props
+    }: React.ComponentProps<typeof RechartsPrimitive.Tooltip> & {
+      hideLabel?: boolean;
+      hideIndicator?: boolean;
+      indicator?: "line" | "dot" | "dashed";
+      nameKey?: string;
+      labelKey?: string;
+      className?: string;
     },
     ref,
   ) => {

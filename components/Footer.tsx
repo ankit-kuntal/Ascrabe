@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 const Footer = () => (
   <footer className="border-t bg-card">
-    <div className="container py-12">
-      <div className="grid gap-8 md:grid-cols-4">
+    <div className="container mx-auto px-4 py-12">
+      <div className="grid gap-8 md:grid-cols-4 max-w-6xl mx-auto">
         {/* Logo & description */}
         <div>
           <div className="flex items-center gap-2 mb-3">

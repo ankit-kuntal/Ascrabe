@@ -7,9 +7,13 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Ascrabe - Sell Your Scrap, Earn Cash',
   description: 'Ascrabe makes it easy to sell newspapers, electronics, plastic, metal, and more. Schedule a pickup and get paid instantly.',
+  metadataBase: new URL('http://localhost:3000'),
   openGraph: {
     title: 'Ascrabe - Sell Your Scrap, Earn Cash',
     description: 'Easy scrap selling platform with instant pickup and payment',
+    url: 'http://localhost:3000',
+    siteName: 'Ascrabe',
+    type: 'website',
   },
 }
 
