@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="sticky top-0 z-50 border-b bg-card/80 backdrop-blur-md">
-      <div className="container flex h-16 items-center justify-between">
+      <div className="container mx-auto px-4 flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <div className="flex h-9 w-9 items-center justify-center rounded-lg gradient-hero">
             <Recycle className="h-5 w-5 text-white" />

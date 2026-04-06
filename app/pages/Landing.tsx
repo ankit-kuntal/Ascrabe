@@ -74,8 +74,8 @@ const Landing = () => {
       {/* Hero */}
       <section className="relative overflow-hidden" ref={heroRef}>
         <div className="absolute inset-0 gradient-subtle opacity-60" />
-        <div className="container relative py-16 md:py-24">
-          <div className="grid items-center gap-10 md:grid-cols-2 mx-auto">
+        <div className="container mx-auto px-4 relative py-16 md:py-24">
+          <div className="grid items-center gap-10 md:grid-cols-2 max-w-6xl mx-auto">
             <div className="animate-fade-in flex flex-col justify-center">
               <div className="flex justify-center md:justify-start mb-4">
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-secondary px-3 py-1 text-xs font-medium text-secondary-foreground">
